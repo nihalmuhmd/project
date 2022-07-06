@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 button {
@@ -115,6 +116,7 @@ button {
     margin: 30px 50px;
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .head-text1 {
@@ -124,6 +126,7 @@ button {
     font-size: 20px;
     line-height: 1cm;
     margin: 5px 15px;
+    flex-wrap: wrap;
 }
 
 
@@ -133,6 +136,7 @@ button {
     justify-content: flex-end;
     align-items: flex-start;
     margin: 0px 15px;
+    flex-wrap: wrap;
 }
 
 
@@ -143,13 +147,14 @@ button {
 
 }
 
-.boxes {
+.boxes {flex-wrap: wrap;
 
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
+    
 
 }
 
