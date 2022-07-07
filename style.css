@@ -15,6 +15,10 @@ body {
     
 }
 
+.container{
+    max-width: 678px;
+  }
+
 button {
     background-color: #F6BC15;
     width: fit-content;
@@ -37,7 +41,7 @@ button {
 
 
 #header {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,9 +52,6 @@ button {
 
 
 }
-#header .bar{
-    font-size: 15px;
-}
 
 #header a {
     text-decoration: none;
@@ -59,12 +60,13 @@ button {
 
 .bx-menu{
     font-size: 20px;
+    cursor: pointer;
 }
 
 #hero {
     background-image: url(image/large.jpg);
     background-size: cover;
-    width: 50%;
+    width: 100%;
     height: 57vh;
     display: flex;
     align-items: flex-end;
@@ -102,7 +104,7 @@ button {
 
 
 #about {
-    width: 50%;
+    width: 100%;
     height: 52vh;
     background-color: #E4E6E6;
     display: flex;
@@ -116,11 +118,11 @@ button {
     margin: 30px 50px;
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    
 }
 
 .head-text1 {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     font-size: 20px;
@@ -135,7 +137,7 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: 0px 15px;
+    margin: 0px 14px;
     flex-wrap: wrap;
 }
 
@@ -162,12 +164,11 @@ button {
     border-radius: 10px;
     background: white;
     padding-bottom: 15px;
-    width: 220px;
+    width: 195px;
     height: 195px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 9px;
     position: relative;
     align-items: center;
 
